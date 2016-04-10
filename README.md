@@ -90,7 +90,7 @@ The value that is the epoch of the `timeseq`.The default is millisecond of `2016
 ### General
 
 ```js
-var inst = shortid.inst({salts:3,interval:1000}),
+var inst = shortid.inst({salts:3,interval:1000});
 console.log(inst.gen());
 ```
 

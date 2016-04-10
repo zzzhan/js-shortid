@@ -19,7 +19,7 @@ bower install shortid --save
 `js-shortid` is available in the npm repository.
 
 ```shell    
-npm install shortid --save
+npm install js-shortid --save
 ```
 	
 ## Usage

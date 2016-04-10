@@ -13,7 +13,7 @@ npm test
 If you are using bower, you can download the source like this:
 
 ```shell
-bower install shortid --save
+bower install js-shortid --save
 ```
 
 `js-shortid` is available in the npm repository.

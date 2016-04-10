@@ -21,20 +21,20 @@ var func1 = function(loopCount,opt) {
 	}
   }
   if(!duplicated) {
-	console.log('unfound!');  
+	console.log('unfound!');
   }
-  return store;	
+  return store;
 };
-console.log('check duplicated within 1000000 visiteds in the same time(4 salts):')
+console.log('check duplicated within 1000000 visiteds in the same time(4 salts):');
 func1(1000000,{salts:4,interval:-1});
-console.log('check duplicated within 10000 visiteds in the same time(2 salts):')
+console.log('check duplicated within 10000 visiteds in the same time(2 salts):');
 func1(10000,{interval:-1});
-console.log('check duplicated within 10000 visiteds in the same time(3 salts):')
+console.log('check duplicated within 10000 visiteds in the same time(3 salts):');
 func1(10000,{salts:3,interval:-1});
 console.log('Samples:');
+var fn = function(){
+  console.log(shortid.gen());
+};
 for(var i=0;i<10;i++) {
-  setTimeout(function(){
-	  console.log(shortid.gen());
-	},
-    Math.floor(Math.random()*1000));
+  setTimeout(fn, Math.floor(Math.random()*1000));
 }

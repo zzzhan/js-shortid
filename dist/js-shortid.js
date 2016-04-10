@@ -47,7 +47,7 @@
 	    var self=this,opt=self._opt,salts=opt.salts||2,
 		  ret='';
 		for(var i=0;i<salts;i++) {
-		  var salt = Math.floor(Math.random()*3844)
+		  var salt = Math.floor(Math.random()*3844);
 		  ret += __paddingLeft('00',self._toBase(salt, __base));
 		}
 		return ret;

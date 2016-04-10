@@ -2,7 +2,7 @@
   "name": "js-shortid",
   "version": "0.1.0",
   "description": "Short id generator. UUID generator. Url-friendly. Non-predictable.",
-  "main": "lib/shortid.js",
+  "main": "lib/js-shortid.js",
   "files": [
     "lib"
   ],

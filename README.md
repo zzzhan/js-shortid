@@ -27,7 +27,7 @@ npm install js-shortid --save
 * node.js:
 
 	```js
-	var shortid=require('shortid');	
+	var shortid=require('js-shortid');	
 	console.log(shortid.gen());
 	```
 	
